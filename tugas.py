@@ -93,6 +93,10 @@ for lok, data in data_panen.items():
     if padi > 1300 or jagung > 800:
         status = "memerlukan perhatian khusus"
     else:
+<<<<<<< HEAD
         status = "baik..."
+=======
+        status = "baik..."
+>>>>>>> baru
     
     print(f"Kondisi {data['nama_lokasi']} {status}")
